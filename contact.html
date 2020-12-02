@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="background container">
+    <header>
+        <h1 class="logo-box">contact</h1>
+
+        <nav>
+            <ul class="navigation-bar">
+                <li class="navigation-bar-box"><a href="index.html">HOME</a></li>
+                <li class="navigation-bar-box"><a href="about.html">OVER MIJ</a></li>
+                <li class="navigation-bar-box"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <form name="contact" method="POST" data-netlify="true" class="form">
+                <label for="naam" class="label">Naam: </label>
+                <input type="text" name="naam" class="input"> <br>
+ 
+                <label for="email" class="label">Email: </label>
+                <input type="email" name="email" class="input"> <br>
+ 
+                <label for="text" class="label">Tekstveld: </label>
+                <textarea name="text" class="input"></textarea> <br>
+ 
+                <input type="submit" value="Verzenden" class="button">
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        Copyright 2020 Thom van der Veldt
+    </footer>
+</body>
+
+</html>
